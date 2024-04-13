@@ -1,0 +1,22 @@
+.good-lg-none{
+    direction: ltr;
+    display: flex;
+    border: 1px solid #cacaca;
+    color: #000;
+    max-height: 140px;
+    text-align: right;
+}
+.good-lg-block{
+    direction: ltr;
+    display: flex;
+    border: 1px solid #cacaca;
+    color: #000;
+    max-height: 500px;
+    text-align: right;
+}
+.good-lg-block h4{
+    font-size: larger;
+}
+.good-lg-none h4{
+    font-size:larger;
+}
