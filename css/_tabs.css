@@ -18,3 +18,10 @@
 #nav-tab button.active{
     border-top: 2px solid red;
 }
+.ad-banner-1:hover{
+transform: scale(1.05);
+transition: 0.5s ease;
+}
+.ad-banner-section{
+    overflow: hidden
+}

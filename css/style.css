@@ -3,6 +3,7 @@
 @import url(_shipping.css);
 @import url(_goods-part.css);
 @import url(_tabs.css);
+@import url(_footer.css);
 
 @font-face {
     font-family: 'Vazirmatn-Medium';
@@ -49,4 +50,6 @@ a{
 .btn{
     display: inline!important;
 }
-
+.bg-secondary-custom{
+    background-color: #e6e5e5;
+}

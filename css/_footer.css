@@ -1,0 +1,49 @@
+.footer ul a::before{
+    content: ">";
+    font-size: 1.5rem;
+    position: absolute;
+    right:-15px;
+    top: 0;
+}
+.footer  a{
+    color: #000;
+    position: relative;   
+    font-size: 1.15rem;
+}
+
+.footer ul li a:hover{
+    color: #928f8f;
+    transition: .2s ease;
+}
+.footer ul li:hover{
+    transform: translate(-10px);
+    transition: .5s ease; 
+
+}
+.footer h5{
+    border-bottom: 2px solid rgb(26, 26, 26);
+    display: inline-block;
+    padding:  0px 5px 10px 8px;
+    font-family: bold;
+    font-size: 1.6rem;
+}
+.footer{
+    background-color: #e4e4e4;
+    padding: 3rem  0 0 0;
+}
+.footer a i{
+    display: inline;
+}
+.footer-left a{
+    color: #151000;
+    transition: all 0.3s ease;
+}
+.footer-left a:hover{
+    color: #5656ff;
+}
+a.footer-inform{
+    color: #000;
+}
+a.footer-inform:hover{
+    color: #000!important;
+}

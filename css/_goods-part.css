@@ -5,6 +5,7 @@
     color: #000;
     max-height: 140px;
     text-align: right;
+    transition: all .25s ease;
 }
 .good-lg-block{
     direction: ltr;
@@ -13,10 +14,17 @@
     color: #000;
     max-height: 500px;
     text-align: right;
+    transition: all .25s ease;
+   
 }
 .good-lg-block h4{
     font-size: larger;
 }
 .good-lg-none h4{
     font-size:larger;
+}
+.good-lg-block:hover,
+.good-lg-none:hover{
+    background-color: #d9d9d9;
+    color: #000!important;
 }

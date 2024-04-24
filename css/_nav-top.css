@@ -1,9 +1,7 @@
 .bg-custom-nav-top{
     background-color: rgb(62, 61, 85);
 }
-.bg-secondary-custom{
-    background-color: #e6e5e5;
-}
+
 .basket-img-custom{
     height: 65px;
     width: 65px;
@@ -42,7 +40,7 @@
 @media screen and (min-width:992px) {
     .dropdown-nav-top{
        width:70vw;
-        height: 500px;
+        height: 358px;
     }
     .trans1{
         transform: translate(-79% , 40px)!important;
