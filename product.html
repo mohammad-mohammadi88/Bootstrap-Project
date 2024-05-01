@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/product.css">
     <title>product</title>
 </head>
 <body>
+    <div class="container-fluid bg-product-custom">
     <!-- start nav top -->
-   <div class="container-fluid bg-custom-nav-top">
+   <div class="container-fluid bg-custom-nav-top vw-100">
     <div class="container">
         <div class="row">
           <div class="col-12 col-md-6 text-white d-flex align-items-center">
@@ -37,7 +39,7 @@
                       <li><a class="dropdown-item" href="#">ماشین</a></li>
                       <li><a class="dropdown-item" href="#">لوازم خانگی</a></li>
                     </ul>
-                    <input type="search" class="form-control">
+                    <input type="search" class="form-control" placeholder="هدست">
                     <button type="button" class="btn btn-success p-2 rounded-end">search</button>
                     </ul>
                   </div>
@@ -319,19 +321,194 @@
       </div>
     </div>
    </div> 
-   
 <!-- end nav top -->
+<div class="container bg-white p-2 ps-3 pt-4 mt-5 border-secondary">
+    <div class="row">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">خانه</a></li>
+              <li class="breadcrumb-item active" aria-current="page">هدست</li>
+            </ol>
+          </nav>
+    </div>
+</div>
+<!-- start nav top product part -->
+<div class="container bg-white mt-5 border-secondary p-3">
+    <div class="row">
+        <div class="col-12 col-md-5 product-picture">
+            <div class="tab-content p-3">
+            <img src="img/product page/هدست.webp" alt="" class="img-fluid tab-pane fade show active" id="headset1">
+            <img src="img/product page/هدست2.jpg" alt="" class="img-fluid tab-pane fade" id="headset2">
+            <img src="img/product page/هدست3.webp" alt="" class="img-fluid tab-pane fade" id="headset3">
+            <img src="img/product page/هدست4.jpg" alt="" class="img-fluid tab-pane fade" id="headset4">
+            <img src="img/product page/هدست5.webp" alt="" class="img-fluid tab-pane fade" id="headset5">
+
+        </div>
+            <div class="d-flex nav nav-pills">
+                <a href="#headset1" class="col-2 offset-1 product-item nav-item" data-bs-toggle="pill"><img src="img/product page/هدست.webp" alt="" class=" img-fluid"></a>
+                <a href="#headset2" class="col-2 product-item nav-item" data-bs-toggle="pill"><img src="img/product page/هدست2.jpg" alt="" class=" img-fluid"></a>
+                <a href="#headset3" class="col-2 product-item nav-item" data-bs-toggle="pill"><img src="img/product page/هدست3.webp" alt="" class=" img-fluid"></a>
+                <a href="#headset4" class="col-2 product-item nav-item" data-bs-toggle="pill"><img src="img/product page/هدست4.jpg" alt="" class=" img-fluid"></a>
+                <a href="#headset5" class="col-2 product-item nav-item" data-bs-toggle="pill"><img src="img/product page/هدست5.webp" alt="" class=" img-fluid"></a>
+
+            </div>
+        </div>
+        <div class="col-12 col-md-7">
+            <div class="d-flex justify-content-between mt-2">
+                <h3>SODO 1004</h3>
+                <div style="font-size: 1.5rem;padding: 0.5rem;">
+                    <a href="" class="fa-solid fa-heart" style="color: #ff0000; "></a> 
+                    <a href="" class="fa fa-share-alt" aria-hidden="true" style="padding: 0 0.5rem 0 0.5rem;"></a>
+                    <a href="" class="fa-solid fa-bell" style="color: #FFD43B;"></a>
+                </div>
+             </div>
+            <div><a href="" class="fa fa-star product-stars "></a><a href="" class="fa fa-star product-stars"></a><a href="" class="fa fa-star product-stars"></a><a href="" class="fa fa-star product-stars"></a><a href="" class="far fa-star product-stars"></a><p class="d-inline ps-4">(8دیدگاه وجود دارد)</p></div>
+             <div class="d-flex justify-content-between col-4 mt-4">
+                <del>350000تومان</del><h5>200000تومان</h5>
+             </div>
+             <div class="d-flex justify-content-between mx-2">
+                <small class="mt-2" style="font-size: 14px;">برند:شیائومی</small>
+                <h6>دسته بندی: <span class="btn-primary rounded-3 p-1 btn" style="font-size: 0.9rem;">موسیقی</span> <span class="btn-primary rounded-3 p-1 btn" style="font-size: 0.9rem;">هدست و ایرپاد</span></h6>
+             </div>
+             <h5 class="mt-3">مشخصات محصول</h5>
+             <ul class="mt-3 product-information">
+              <li>پوشش کامل گوش</li>
+              <li>اتصاد بی سیم</li>
+              <li>ارزش خرید بالا</li>
+              <li>کیفیت صدای بالا</li>
+             </ul>
+             <div class="d-flex mt-5">
+             <h4 class="me-2 ">تعداد</h4>
+             <input type="number" name="" class="form-control" style="width: 100px;" min="1" max="10"  id="">
+             <input type="submit" class="btn rounded-2 ms-4" style="color: #fff;background-color: #08ad61;border-color: #04a359;" value="افزودن به سبد خرید" />
+        </div>
+    </div>
+  <div id="tab-product position-fixed" class="mt-5">
+        <div class="nav nav-tabs col-12" id="nav-tab" role="tablist">
+          <button class="nav-link active nav-header-tab" data-bs-toggle="tab" data-bs-target="#product-discuss" type="button" role="tab" aria-controls="product-discuss" aria-selected="true" style="transform: translateX(1px);">نقد و بررسی کالا</button>
+          <button class="nav-link nav-header-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">مشخصات کالا</button>
+          <button class="nav-link nav-header-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">توضیحات</button>
+        </div>
+      
+      
+      <div class="tab-content bg-white nav-tabContent" >
+        <div class="tab-pane fade show active p-4 pt-0 product-discuss " id="product-discuss">
+          <div class=" my-5"><span class="border-bottom border-2 border-danger p-1 fs-5">نقد و بررسی کامل کالا</span></div>
+          <p style="font-weight: normal; text-align: right;line-height: 28px;">اگر به دنبال یک هدفون با کارایی متفاوت و رنگ‌های شاد هستید ما به شما هدفون SODO SD-1004 را با کارایی هدفون‌بلوتوث پیشنهاد می‌کنیم. سری sd ساخت کمپانی خوشنام SODO با محصولاتی منحصر به فرد هستند. هدفون SODO sd-1004 یک هدفون با صدایی باکیفیت همراه با بیس بسیار قوی است چرم مصنوعی لطیف و ابر نرم بکار رفته در پدها، به راحتی بیشتر هدفون روی گوش منجر شده و در استفاده بلندمدت به هیچ عنوان گوشتان را خسته و آزرده نخواهد کرد. این هدفون دارای بلوتوث نسخه 5.0 بوده و به آسانی با دستگاه مورد نظرتان و با هر سیستم عاملی اتصال برقرار می‌کند. هدفون SODO sd-1004 علاوه بر دارا بودن بلوتوث، دارای قابلیت‌ها و روش‌های اتصال متعدد دیگری از جمله کابلAux ، کارت حافظه می باشد و با میکروفون HD روی خود می‌توان از آن برای پاسخگویی به مکالمات نیز در حالت هدفون استفاده کرد. کنترل موسیقی، ولوم و تغییر حالت پخش توسط دکمه های بکار رفته بر روی گوشی چپ هدفون بلوتوث سودو مدل sd-1004 مقدور است. این هدفون با رنگ‌های متنوع، نیاز طیف وسیعی از مصرف‌کننده‌های خود را برطرف خواهد کرد.</p>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-5 col-12 ">
+                <h5 class="discuss-h5">کیفیت صدا</h5>
+                <div class="bg-secondary-custom rounded-3 position-relative product-before-1" style="width: 400px; height: 3px; "></div>
+                <h5 class="discuss-h5">ارزش خرید نسبت به قیمت</h5>
+                <div class="bg-secondary-custom rounded-3 position-relative product-before-2" style="width: 400px; height: 3px; "></div>
+                <h5 class="discuss-h5">کیفیت ساخت</h5>
+                <div class="bg-secondary-custom rounded-3 position-relative product-before-3" style="width: 400px; height: 3px; "></div>
+                <h5 class="discuss-h5">امکانات و قابلیت ها</h5>
+                <div class="bg-secondary-custom rounded-3 position-relative product-before-4" style="width: 400px; height: 3px; "></div>
+                <h5 class="discuss-h5">آرگونومی</h5>
+                <div class="bg-secondary-custom rounded-3 position-relative product-before-5" style="width: 400px; height: 3px; "></div>
+                </div>
+                <ul class="mt-3 ms-5 col-12 col-lg-4 product-information" style="width: 250px;">
+                  <li>پوشش کامل گوش</li>
+                  <li>اتصاد بی سیم</li>
+                  <li>ارزش خرید بالا</li>
+                  <li>کیفیت صدای بالا</li>
+                 </ul>
+            </div>
+          </div>
+           <!-- <br><br><br><br><br><br><br><br><br><br><br> -->
+           <div class="border-start px-4">
+            <div class="product-discuss-text">
+              <i class="far fa-dot-circle text-secondary position-relative"></i>
+              <p style="font-weight: normal; text-align: right;line-height: 28px;">اگر به دنبال یک هدفون با کارایی متفاوت و رنگ‌های شاد هستید ما به شما هدفون SODO SD-1004 را با کارایی هدفون‌بلوتوث پیشنهاد می‌کنیم. سری sd ساخت کمپانی خوشنام SODO با محصولاتی منحصر به فرد هستند. هدفون SODO sd-1004 یک هدفون با صدایی باکیفیت همراه با بیس بسیار قوی است چرم مصنوعی لطیف و ابر نرم بکار رفته در پدها، به راحتی بیشتر هدفون روی گوش منجر شده و در استفاده بلندمدت به هیچ عنوان گوشتان را خسته و آزرده نخواهد کرد. این هدفون دارای بلوتوث نسخه 5.0 بوده و به آسانی با دستگاه مورد نظرتان و با هر سیستم عاملی اتصال برقرار می‌کند. هدفون SODO sd-1004 علاوه بر دارا بودن بلوتوث، دارای قابلیت‌ها و روش‌های اتصال متعدد دیگری از جمله کابلAux ، کارت حافظه می باشد و با میکروفون HD روی خود می‌توان از آن برای پاسخگویی به مکالمات نیز در حالت هدفون استفاده کرد. کنترل موسیقی، ولوم و تغییر حالت پخش توسط دکمه های بکار رفته بر روی گوشی چپ هدفون بلوتوث سودو مدل sd-1004 مقدور است. این هدفون با رنگ‌های متنوع، نیاز طیف وسیعی از مصرف‌کننده‌های خود را برطرف خواهد کرد.</p>
+            </div>
+            <div class="d-flex justify-content-center"><img src="img/product page/هدست.webp" alt="" style="height: 600px!important;width: 50%!important;"></div>
+            <div class="product-discuss-text">
+              <i class="far fa-dot-circle text-secondary position-relative"></i>
+              <p style="font-weight: normal; text-align: right;line-height: 28px;">اگر به دنبال یک هدفون با کارایی متفاوت و رنگ‌های شاد هستید ما به شما هدفون SODO SD-1004 را با کارایی هدفون‌بلوتوث پیشنهاد می‌کنیم. سری sd ساخت کمپانی خوشنام SODO با محصولاتی منحصر به فرد هستند. هدفون SODO sd-1004 یک هدفون با صدایی باکیفیت همراه با بیس بسیار قوی است چرم مصنوعی لطیف و ابر نرم بکار رفته در پدها، به راحتی بیشتر هدفون روی گوش منجر شده و در استفاده بلندمدت به هیچ عنوان گوشتان را خسته و آزرده نخواهد کرد. این هدفون دارای بلوتوث نسخه 5.0 بوده و به آسانی با دستگاه مورد نظرتان و با هر سیستم عاملی اتصال برقرار می‌کند. هدفون SODO sd-1004 علاوه بر دارا بودن بلوتوث، دارای قابلیت‌ها و روش‌های اتصال متعدد دیگری از جمله کابلAux ، کارت حافظه می باشد و با میکروفون HD روی خود می‌توان از آن برای پاسخگویی به مکالمات نیز در حالت هدفون استفاده کرد. کنترل موسیقی، ولوم و تغییر حالت پخش توسط دکمه های بکار رفته بر روی گوشی چپ هدفون بلوتوث سودو مدل sd-1004 مقدور است. این هدفون با رنگ‌های متنوع، نیاز طیف وسیعی از مصرف‌کننده‌های خود را برطرف خواهد کرد.</p>
+            </div>
+            <div class="d-flex justify-content-center"><img src="img/product page/هدست2.jpg" alt="" style="height: 600px!important;width: 50%!important;"></div>
+            <div class="product-discuss-text">
+              <i class="far fa-dot-circle text-secondary position-relative"></i>
+              <p style="font-weight: normal; text-align: right;line-height: 28px;">اگر به دنبال یک هدفون با کارایی متفاوت و رنگ‌های شاد هستید ما به شما هدفون SODO SD-1004 را با کارایی هدفون‌بلوتوث پیشنهاد می‌کنیم. سری sd ساخت کمپانی خوشنام SODO با محصولاتی منحصر به فرد هستند. هدفون SODO sd-1004 یک هدفون با صدایی باکیفیت همراه با بیس بسیار قوی است چرم مصنوعی لطیف و ابر نرم بکار رفته در پدها، به راحتی بیشتر هدفون روی گوش منجر شده و در استفاده بلندمدت به هیچ عنوان گوشتان را خسته و آزرده نخواهد کرد. این هدفون دارای بلوتوث نسخه 5.0 بوده و به آسانی با دستگاه مورد نظرتان و با هر سیستم عاملی اتصال برقرار می‌کند. هدفون SODO sd-1004 علاوه بر دارا بودن بلوتوث، دارای قابلیت‌ها و روش‌های اتصال متعدد دیگری از جمله کابلAux ، کارت حافظه می باشد و با میکروفون HD روی خود می‌توان از آن برای پاسخگویی به مکالمات نیز در حالت هدفون استفاده کرد. کنترل موسیقی، ولوم و تغییر حالت پخش توسط دکمه های بکار رفته بر روی گوشی چپ هدفون بلوتوث سودو مدل sd-1004 مقدور است. این هدفون با رنگ‌های متنوع، نیاز طیف وسیعی از مصرف‌کننده‌های خود را برطرف خواهد کرد.</p>
+            </div>
+            <div class="d-flex justify-content-center"><img src="img/product page/هدست3.webp" alt="" style="height: 600px!important;width: 50%!important;"></div>
+            <div class="product-discuss-text">
+              <i class="far fa-dot-circle text-secondary position-relative"></i>
+              <p style="font-weight: normal; text-align: right;line-height: 28px;">اگر به دنبال یک هدفون با کارایی متفاوت و رنگ‌های شاد هستید ما به شما هدفون SODO SD-1004 را با کارایی هدفون‌بلوتوث پیشنهاد می‌کنیم. سری sd ساخت کمپانی خوشنام SODO با محصولاتی منحصر به فرد هستند. هدفون SODO sd-1004 یک هدفون با صدایی باکیفیت همراه با بیس بسیار قوی است چرم مصنوعی لطیف و ابر نرم بکار رفته در پدها، به راحتی بیشتر هدفون روی گوش منجر شده و در استفاده بلندمدت به هیچ عنوان گوشتان را خسته و آزرده نخواهد کرد. این هدفون دارای بلوتوث نسخه 5.0 بوده و به آسانی با دستگاه مورد نظرتان و با هر سیستم عاملی اتصال برقرار می‌کند. هدفون SODO sd-1004 علاوه بر دارا بودن بلوتوث، دارای قابلیت‌ها و روش‌های اتصال متعدد دیگری از جمله کابلAux ، کارت حافظه می باشد و با میکروفون HD روی خود می‌توان از آن برای پاسخگویی به مکالمات نیز در حالت هدفون استفاده کرد. کنترل موسیقی، ولوم و تغییر حالت پخش توسط دکمه های بکار رفته بر روی گوشی چپ هدفون بلوتوث سودو مدل sd-1004 مقدور است. این هدفون با رنگ‌های متنوع، نیاز طیف وسیعی از مصرف‌کننده‌های خود را برطرف خواهد کرد.</p>
+            </div>
+            <div class="d-flex justify-content-center"><img src="img/product page/هدست4.jpg" alt="" style="height: 600px!important;width: 50%!important;"></div>
+           </div>
+        </div>
+        <div class="tab-pane fade container " id="nav-profile">
+
+          <div class="w-100 grow about-tab">
+          <div class=" my-5"><span class="border-bottom border-2 border-danger p-1 fs-5">مشخصات کالا</span></div>
+
+            <div class="w-100 d-flex offset-2"><p class="ms-4 col-3 text-secondary py-2 ">پاسخ فرکانسی</p><div class="border-bottom py-1 col-6 border-1 " style="border-color: #efefef;"><p class="w-100 ">۲۰-۱۸۰۰۰ هرتز</p></div></div>
+            <div class="w-100 d-flex offset-2"><p class="ms-4 col-3 text-secondary py-2 ">قطر درایور</p><div class="border-bottom py-1 col-6 border-1 " style="border-color: #efefef;"><p class=" w-100 ">۴۰ میلی‌متر</p></div></div>
+            <div class="w-100 d-flex offset-2"><p class="ms-4 col-3 text-secondary py-2 ">منبع تغذیه هدفون</p><div class="border-bottom py-1 col-6 border-1 " style="border-color: #efefef;"><p class=" w-100 ">باتری </p></div></div>
+            <div class="w-100 d-flex offset-2"><p class="ms-4 col-3 text-secondary py-2 ">قابلیت‌های هدفون، هدست و هندزفری</p><div class="border-bottom py-1 col-6 border-1 " style="border-color: #efefef;"><p class=" w-100 ">نشانگر LED </p></div></div>
+            <div class="w-100 d-flex offset-2"><p class="ms-4 col-3 text-secondary py-2 ">محدوده عملکرد</p><div class="border-bottom py-1 col-6 border-1 " style="border-color: #efefef;"><p class=" w-100 ">۱۰ متر </p></div></div>
+            <div class="w-100 d-flex offset-2"><p class="ms-4 col-3 text-secondary py-2 ">عمر باتری</p><div class="border-bottom py-1 col-6 border-1 " style="border-color: #efefef;"><p class=" w-100 ">۸ ساعت </p></div></div>
+           
+            <div class="collapse" id="product-collapse">
+              <div class="w-100 d-flex offset-2"><p class="ms-4 col-3 text-secondary py-2 ">نوع گوشی</p><div class="border-bottom py-1 col-6 border-1 " style="border-color: #efefef;"><p class=" w-100 ">دو گوشی </p></div></div>
+              <div class="w-100 d-flex offset-2"><p class="ms-4 col-3 text-secondary py-2 ">عمر باتری هدفون در حالت مکالمه</p><div class="border-bottom py-1 col-6 border-1 " style="border-color: #efefef;"><p class=" w-100 ">۶ ساعت ساعت</p></div></div>
+              <div class="w-100 d-flex offset-2"><p class="ms-4 col-3 text-secondary py-2 ">عمر باتری هدفون در حالت پخش موسیقی</p><div class="border-bottom py-1 col-6 border-1 " style="border-color: #efefef;"><p class=" w-100 ">۸ ساعت ساعت</p></div></div>
+              <div class="w-100 d-flex offset-2"><p class="ms-4 col-3 text-secondary py-2 ">زمان موردنیاز برای شارژ هدفون</p><div class="border-bottom py-1 col-6 border-1 " style="border-color: #efefef;"><p class=" w-100 ">۲ ساعت ساعت</p></div></div>
+              <div class="w-100 d-flex offset-2"><p class="ms-4 col-3 text-secondary py-2 ">نسخه بلوتوث</p><div class="border-bottom py-1 col-6 border-1 " style="border-color: #efefef;"><p class=" w-100 ">۵ </p></div></div>
+              <div class="w-100 d-flex offset-2"><p class="ms-4 col-3 text-secondary py-2 ">نوع اتصال</p><div class="border-bottom py-1 col-6 border-1 " style="border-color: #efefef;"><p class=" w-100 ">بی‌سیم و باسیم </p></div></div>
+              <div class="w-100 d-flex offset-2"><p class="ms-4 col-3 text-secondary py-2 ">رابط‌ها</p><div class="border-bottom py-1 col-6 border-1 " style="border-color: #efefef;"><p class=" w-100 "><span class="rounded-circle"></span>جک ۳.۵ میلی‌متری صدا </p><p class="flex items-center w-100"><span class="rounded-circle"></span>شیار کارت حافظه </p></div></div>
+              <div class="w-100 d-flex offset-2"><p class="ms-4 col-3 text-secondary py-2 ">امپدانس</p><div class="border-bottom py-1 col-6 border-1 " style="border-color: #efefef;"><p class=" w-100 ">۳۲ اهم</p></div></div>
+              <div class="w-100 d-flex offset-2"><p class="ms-4 col-3 text-secondary py-2 ">مناسب برای</p><div class="border-bottom py-1 col-6 border-1 " style="border-color: #efefef;"><p class=" w-100 ">ورزش </p></div></div>
+              <div class="w-100 d-flex offset-2"><p class="ms-4 col-3 text-secondary py-2 ">ویژگی‌های خاص</p><div class="border-bottom py-1 col-6 border-1 " style="border-color: #efefef;"><p class=" w-100 ">نگهدارنده گوشی </p></div></div>
+              
+            </div><a class="" data-bs-toggle="collapse" href="#product-collapse">بیشتر</a>
+          </div>
+      </div>
+        <div class="tab-pane fade container pt-0 p-4"id="nav-contact">
+          <div class=" my-5"><span class="border-bottom border-2 border-danger p-1 fs-5">توضیحات</span></div>
+<p class="fs-6 mt-4" style=" line-height: 28px;" >                    اگر به دنبال یک هدفون با کارایی متفاوت و رنگ‌های شاد هستید ما به شما هدفون SODO SD-1004 را با کارایی هدفون‌بلوتوث پیشنهاد می‌کنیم. سری sd ساخت کمپانی خوشنام SODO با محصولاتی منحصر به فرد هستند. هدفون SODO sd-1004 یک هدفون با صدایی باکیفیت همراه با بیس بسیار قوی است چرم مصنوعی لطیف و ابر نرم بکار رفته در پدها، به راحتی بیشتر هدفون روی گوش منجر شده و در استفاده بلندمدت به هیچ عنوان گوشتان را خسته و آزرده نخواهد کرد. این هدفون دارای بلوتوث نسخه 5.0 بوده و به آسانی با دستگاه مورد نظرتان و با هر سیستم عاملی اتصال برقرار می‌کند. هدفون SODO sd-1004 علاوه بر دارا بودن بلوتوث، دارای قابلیت‌ها و روش‌های اتصال متعدد دیگری از جمله کابلAux ، کارت حافظه می باشد و با میکروفون HD روی خود می‌توان از آن برای پاسخگویی به مکالمات نیز در حالت هدفون استفاده کرد. کنترل موسیقی، ولوم و تغییر حالت پخش توسط دکمه های بکار رفته بر روی گوشی چپ هدفون بلوتوث سودو مدل sd-1004 مقدور است. این هدفون با رنگ‌های متنوع، نیاز طیف وسیعی از مصرف‌کننده‌های خود را برطرف خواهد کرد.
+</p>
+      </div>
+    </div>
+    </div>
+
+  </div>
+
+<!-- end nav top product part -->
 
 
 
 
 
+<!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
+    </div><!-- start ads part -->
+<div class="container my-5">
+  <div class="row">
+    <div class="col-12 col-lg-3 ad-banner-section">
+      <a href="#"><img src="img/png/ad1.png" class="img-fluid mb-3 ad-banner-1" alt=""></a>
+    </div>
+    <div class="col-12 col-lg-3 ad-banner-section">
+      <a href="#"><img src="img/png/ad2.jpg" class="img-fluid mb-3 ad-banner-1" alt=""></a>
+    </div>
+    <div class="col-12 col-lg-3 ad-banner-section">
+      <a href="#"><img src="img/png/ad3.gif" class="img-fluid mb-3 ad-banner-1" alt=""></a>
+    </div>
+    <div class="col-12 col-lg-3 ad-banner-section">
+      <a href="#"><img src="img/png/ad4.jpg" class="img-fluid mb-3 ad-banner-1" alt=""></a>
+    </div>
+  </div>
+</div>
+<br><br><br><br><br><br><br><br><br>
+</div>
 
+<!-- end ads part -->
 
-
-
-
-    <div class="container-fluid">
+<!-- start footer part -->
+<div class="container-fluid">
         <section class="container py-5 bg-white rounded-2" style="margin-top: -75px; box-shadow: 0 0 20px 0 #bdbdbd;">
           <div class="row">
             <div class="col-12 col-md-3"> باعضویت در سایت از امکان<span class="text-danger"> 30%تخفیف و ارسال رایگان</span> برای بار اول استفاده کنید</div>
@@ -344,7 +521,7 @@
             </div>
           </div>
         </section>
-        <section class="container-fluid footer mt-5">
+        <section class="container-fluid vw-100 footer bg-white mt-5">
           <div class="container">
           <div class="row">
             <div class="col-6 mb-3 col-md-3">
@@ -414,8 +591,8 @@
       </div>
     </div>
         </section>
-      </div>
-    <!-- end footer part -->
+  </div>
+<!-- end footer part -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
